@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://dev.ladesk.com/sitemap.xml
