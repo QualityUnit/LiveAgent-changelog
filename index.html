@@ -34,8 +34,14 @@ title: Home
                                 </div>
                             </div>
                             <div itemprop="description" class="issues-list">
-                                {{ post.content }}
-                            </div>
+  				                {{ post.content | split:"<!--more-->" | first }}
+			                </div>
+                            {% assign postSecondPartSize = post.content | split:"<!--more-->" | slice:1 |  size %}
+  			                {% if postSecondPartSize > 0 %}
+                                <a class="show-all-changes" href="{{ site.url }}{{ post.url }}">
+					                <span>show all changes in this release</span>
+				                </a>
+  			                {% endif %}
                         </article>
                     </div>
                 {% endfor %}
