@@ -1,0 +1,7 @@
+---
+layout: post
+title: 5.42.6.12
+author: opok
+tags: [ladesk,LiveAgent,5.42.6.12]
+---
+- [Patch] Accessibility of contact form fields: use type=email and type=tel (#18636)
