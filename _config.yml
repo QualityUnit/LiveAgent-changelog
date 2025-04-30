@@ -32,7 +32,7 @@ sass:
   style:            compressed
 
 # Site settings
-include: ['_posts','_posts/archive']
+include: ['_posts','_posts/version-0','_posts/version-2','_postst/version-3','_posts/version-4']
 permalink: /posts/:year/:month/:day/:title/
 relative_permalinks: false
 
