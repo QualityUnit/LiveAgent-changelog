@@ -1,9 +1,9 @@
 ---
 layout: page
 permalink: /posts/
-title: "Posts"
-description: "Posts ..."
-tags: [blog, articles, writing, thoughts]
+title: "Versions"
+description: "Versions ..."
+tags: [versions, history, builds, releases]
 ---
 <div class="flex-center">
    <a href="{{ site.url }}/all/" class="button-view-full-archive open-sans-14-bold">List all changes</a>
