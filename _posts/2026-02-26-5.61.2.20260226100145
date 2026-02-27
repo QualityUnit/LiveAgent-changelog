@@ -1,0 +1,8 @@
+---
+layout: post
+title: 5.61.2.20260226100145
+author: opok
+tags: [ladesk,LiveAgent,5.61.2.20260226100145]
+---
+
+- [Patch] Telegram message is not received in LiveAgent if it is sent along with an image (#21404)
